@@ -1,0 +1,7 @@
+<div id="todoListInput">
+  <label>Insert note:</label>
+  <div>
+    <input #Item/>
+    <button (click)="insertItem(Item.value); Item.value = '';">Add note</button>
+  </div>
+</div>
